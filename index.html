@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title> FORM</title>
+</head>
+
+<body>
+    <script src="js/main.js"></script>
+    <div class="container">
+        <header>
+            <h1>Akan Name Generator</h1>
+            <div class="header-paragraph">
+                <p>This web application takes your birthday details and calculates the day of the week you were born depending on your gender, gives you your Akan Name. Akan names are derived from Ghanian culture where children are given their first name
+                    as a 'day names' which corresponds with the day ofthe week they were born.</p>
+                <p>Generate your own Akan name by filling in your details and clicking submit </p>
+            </div>
+
+        </header>
+        <div class=" form1 ">
+            <form class="form ">
+                <div class="label-1">
+                    <label for="day of birth" class="label">DAY<input type="number" placeholder="DD" required></label>
+                    <label for="month of birth" class="label">MONTH<input type="number" placeholder="MM" required></label>
+                    <label for="year of birth" class="label">YEAR<input type="number" placeholder="YYYY" required></label>
+                </div>
+                <div class="gender">
+                    <p>Select your gender</p>
+                    <div id="radio-buttons">
+                        <label><input type="radio" value="buttons" name="male-female" required>Male </label>
+                        <label><input type="radio" value="buttons" name="male-female" required>Female </label>
+
+                    </div>
+
+                </div>
+                <button class="submit" type=" submit " id="generate ">Generate Name</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
